@@ -1,5 +1,5 @@
 <?php $name = "Toyoura" ;
-if ($name = "Toyoura") {
+if ($name === "Toyoura") {
   echo "私はToyouraです";
 }else {
   echo "あなたの名前ではありません";
@@ -16,7 +16,7 @@ echo $total;
 
 $fruits = array("りんご","ぶどう","梨","文旦","みかん") ;
  foreach ($fruits as $fruit) {
-   echo "$fruit";
+   echo $fruit;
    echo "\n";
  }
  
@@ -29,3 +29,5 @@ for($i = $start; $i <= $end; $i++) {
     echo "\n";
   }
 }
+
+?>
